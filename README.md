@@ -1,7 +1,7 @@
 <h1>THINGS YOU NEED TO CHANGE</h1>
 
 <p>Any issues with this bot or any of my other bots please DM me on discord:</p>
-<p>UserName: opsamuelcc</p>
+<p>Username: opsamuelcc</p>
 <p>ID: 574217755692236803</p>
 <p> 
   <ul>
