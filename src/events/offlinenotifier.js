@@ -4,9 +4,9 @@ module.exports = {
     name: Events.PresenceUpdate,
     async execute(oldStatus, newStatus, client) {
 
-        if (newStatus.user.id !== "") return;  //The Bot that you want to track, their ID
+        if (newStatus.user.id !== "BOT_ID") return;  //The Bot that you want to track, their ID
 
-        var bot = await client.users.fetch(""); //The Bot that you want to track, their ID
+        var bot = await client.users.fetch("BOT_ID"); //The Bot that you want to track, their ID
 
         async function sendMessage(message) {
             const embed = new EmbedBuilder()
