@@ -1,4 +1,4 @@
- <h1>READ ME FIRST</h1>
+ <h1><u>READ ME FIRST</u></h1>
 
 <h3>Any issues with this bot or any of my other bots please DM me on discord:</h3>
 
