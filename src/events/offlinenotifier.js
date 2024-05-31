@@ -13,8 +13,8 @@ module.exports = {
             .setColor("Blurple")
             .setDescription(message)
 
-            var logchannel = await client.channels.fetch("") //The Channel you want to be notified in
-            var botowner = await client.users.fetch("5") //Your ID
+            var logchannel = await client.channels.fetch("LOG_CHANNEl_ID") //The Channel you want to be notified in
+            var botowner = await client.users.fetch("USER_ID") //Your ID
 
             await logchannel.send({ embeds: [embed] }).catch(err => {console.log(err)})
             await botowner.send({ embeds: [embed] }).catch(err => {console.log(err)})
@@ -36,14 +36,11 @@ module.exports = {
 
 
         var timestamp = `<t:${Math.floor(Date.now() / 1000)}:R>`
-        //var commandschannel = await client.channels.fetch("1094510031879282829")
         
         if (newStatus.status == "online") {
             await sendMessage(`🟢 Bot Online!\n\nClient: ${bot.username} \n\nBecame online: ${timestamp}`)
-            //await commandschannel.send({embeds: [onlineembed]})
         } else if (newStatus.status == "offline") {
             await sendMessage(`🔴 Bot offline!\n\nClient: ${bot.username} \n\nBecame offline: ${timestamp}`)
-            //await commandschannel.send({embeds: [offlineembed]})
         }
     }
 }
