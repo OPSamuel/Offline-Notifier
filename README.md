@@ -1,6 +1,6 @@
  <h1>THINGS YOU NEED TO CHANGE</h1>
 
-<p>Any issues with this bot or any of my other bots please DM me on discord:</p>
+<h3>Any issues with this bot or any of my other bots please DM me on discord:</h3>
 
 <ul>
    <li>Username: opsamuelcc</li>
