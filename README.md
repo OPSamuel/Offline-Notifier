@@ -1,6 +1,7 @@
 <h1>THINGS YOU NEED TO CHANGE</h1>
 
-<P> 
+<p>Any issues with this bot or any of my other bots please DM me on discord:\n\nUserName: opsamuelcc\nID: 574217755692236803</p>
+<p> 
   <ul>
       <li>src/events/interactionCreate.js -> Line 15: Enter your user ID.</li>
       <li>src/events/offlinenotifier.js -> Line 7 & 9: Enter the Bot's ID (This is the bot that you want to track).</li>
@@ -10,4 +11,4 @@
       <li>src/functions/handleCommands.js -> Line 6: The ID of the guild you are using this bot.</li>
       <li>.env -> Line 1: The Token of your offline notifier bot. This can be obtained through the discord developer portal.</li>
   </ul>
-</P>
+</p>
