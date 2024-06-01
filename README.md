@@ -17,7 +17,7 @@
    <li>src/events/offlinenotifier.js -> Lines 7 & 9: Input the Bot's ID (the one you want to track).</li>
    <li>src/events/offlinenotifier.js -> Line 16: Specify the channel ID where you wish to receive notifications about the bot's status updates.</li>
    <li>src/events/offlinenotifier.js -> Line 17: Enter your user ID.</li>
-   <li>src/functions/handleCommands.js -> Line 5: Tthe ID of your offline notifier bot (make sure to create it first on the Discord Developer Portal).</li>
+   <li>src/functions/handleCommands.js -> Line 5: The ID of your offline notifier bot (make sure to create it first on the Discord Developer Portal).</li>
    <li>src/functions/handleCommands.js -> Line 6: Provide the ID of the guild where you'll be using this bot.</li>
    <li>.env -> Line 1: Input the Token of your offline notifier bot (obtained from the Discord Developer Portal)."</li>
 </ul>
