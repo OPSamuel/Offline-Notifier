@@ -13,7 +13,7 @@
 
 <h3>Here's what needs to be changed for your bot to function properly:</h3>
 <ul>
-   <li>src/events/interactionCreate.js -> Line 15: Enter your user ID.</li>
+   <li\`>src/events/interactionCreate.js\` -> Line 15: Enter your user ID.</li>
    <li>src/events/offlinenotifier.js -> Lines 7 & 9: Input the Bot's ID (the one you want to track).</li>
    <li>src/events/offlinenotifier.js -> Line 16: Specify the channel ID where you wish to receive notifications about the bot's status updates.</li>
    <li>src/events/offlinenotifier.js -> Line 17: Enter your user ID.</li>
