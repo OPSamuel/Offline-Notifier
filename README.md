@@ -11,7 +11,7 @@
 
 <h3>Remember: ⚠️ Do not share your bot token with anyone, not even your friends. ⚠️</h3>
 
-<h3>Here's what needs to be changed for your bot to function properly:</h3>h3>
+<h3>Here's what needs to be changed for your bot to function properly:</h3>
 <ul>
    <li>src/events/interactionCreate.js -> Line 15: Enter your user ID.</li>
    <li>src/events/offlinenotifier.js -> Lines 7 & 9: Input the Bot's ID (the one you want to track).</li>
